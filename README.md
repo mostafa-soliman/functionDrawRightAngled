@@ -38,6 +38,11 @@
  * Write a Kotlin program that counts the number of vowels (a, e, i, o, u) in the string "Kotlin is awesome".
  * The function vowelsInString calculates how many vowels are present in the given string "Kotlin is awesome". The vowels are identified by checking if each character in the string belongs to the set of vowels defined in the vowel variable.
 
- 
+
+## 6: Reversing a String
+ * Write a Kotlin program that reverses the string "Kotlin".
+* This Kotlin extension function reversStr is defined for the String type and reverses the characters in the string. It uses the reversed() function, which is a built-in Kotlin function to reverse the order of characters in the string.
+
+
 
 
