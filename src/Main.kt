@@ -32,6 +32,8 @@
 fun main() {
 //1: Drawing a Right-Angled Triangle
     drawRightAngled(5)
+    println()
+    isoscelesTriangle(5)
 
 }
 
@@ -40,6 +42,21 @@ fun main() {
 fun drawRightAngled(height : Int){
     for (i in 0..height){
         for (j in 0 .. i){
+            print("* ")
+        }
+        println()
+    }
+}
+
+//2: Drawing an Isosceles Triangle
+// * Write a Kotlin program that draws an isosceles triangle of stars with a height of 5.
+
+fun isoscelesTriangle(height : Int){
+    for (i in 1..height){
+        for (j in 1 .. height - i){
+            print("  ")
+        }
+        for (k in 1 .. (2 * i - 1)){
             print("* ")
         }
         println()
