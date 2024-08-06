@@ -44,6 +44,12 @@ fun main() {
     println()
     val reverseStr:String = "Kotlin"
     println(reverseStr.reversStr())
+    println()
+    val filterDiget:String = "K0t1l1n 2s 4w3s0m3"
+    println(filterDiget.filterDigits())
+    println()
+    val filterStr:String = "K0t1l1n 2s 4w3s0m3"
+    println(filterStr.filterword())
 
 }
 
@@ -122,6 +128,17 @@ fun String.reversStr() : String{
     return  this.reversed()
 }
 
+// * 6: Filtering Digits from a String
+// * Write a Kotlin program that filters and prints only the digits from the string "K0t1l1n 2s 4w3s0m3".
+
+fun String.filterDigits() : String{
+    val regex = "[1-9]".toRegex()
+    return this.filter { it.toString().matches(regex) }
+}
+fun String.filterword() : String{
+    val regex = "[a-zA-z]".toRegex()
+    return this.filter { it.toString().matches(regex) }
+}
 
 
 
