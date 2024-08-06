@@ -14,3 +14,15 @@
 * <h5>Right-Angled.png</h5>
 
 >>>>>>> 1dedef39566953c6a3a3196f35e61478a236b7a0
+
+* # 2: Drawing an Isosceles Triangle
+   * Write a Kotlin program that draws an isosceles triangle of stars with a height of 5.
+   *       <img 
+align="center"
+src="assets/Isosceles-Triangle.PNG"
+alt="Isosceles-Triangle"
+width="150"/>
+
+
+* <h5>Isosceles-Triangle.png</h5>
+* 
