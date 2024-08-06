@@ -36,6 +36,8 @@ fun main() {
     isoscelesTriangle(5)
     println()
     pyramid(5)
+    println()
+    diamondShape(5)
 
 }
 
@@ -79,4 +81,23 @@ fun pyramid(height : Int){
         println()
     }
 }
+
+// 3: Drawing a Diamond Shape
+// * Write a Kotlin program that draws a diamond shape of stars with a height of 5.
+//   - The diamond shape should be centered and consist of stars with spaces around it to form the diamond pattern.
+
+fun diamondShape(height : Int){
+    for (i in 1..height) {
+        for (j in 1..height) {
+            if(i == j || i == height + 1 - j) {
+                print("*")
+            }else
+            { print(" ") }
+        }
+        println()
+    }
+
+}
+
+
 
