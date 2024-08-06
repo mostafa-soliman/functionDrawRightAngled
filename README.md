@@ -16,7 +16,7 @@
 
 * <h5>Isosceles-Triangle.png</h5>
 *  
-* ## 2: Drawing a Pyramid
+* ## 2: Drawing a Pyramid 
    * Write a Kotlin program that draws a pyramid of stars with a height of 5.
    *  
    <img align="center" src="assets/Pyramid.PNG" alt="Pyramid" width="150"/>
