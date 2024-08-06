@@ -43,6 +43,8 @@
  * Write a Kotlin program that reverses the string "Kotlin".
 * This Kotlin extension function reversStr is defined for the String type and reverses the characters in the string. It uses the reversed() function, which is a built-in Kotlin function to reverse the order of characters in the string.
 
+## 7:  * 6: Filtering Digits and Word from a String
+* Write a Kotlin program that filters and prints only the digits from the string "K0t1l1n 2s 4w3s0m3".
 
 
 
