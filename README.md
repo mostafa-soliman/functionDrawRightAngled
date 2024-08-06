@@ -46,5 +46,7 @@
 ## 7:  * 6: Filtering Digits and Word from a String
 * Write a Kotlin program that filters and prints only the digits from the string "K0t1l1n 2s 4w3s0m3".
 
-
+## 7: Splitting a String into Words
+* Write a Kotlin program that splits the string "Kotlin is a great language" into words and prints each word on a new line.
+ *
 
