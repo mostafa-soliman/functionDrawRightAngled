@@ -19,7 +19,7 @@
 * ## 2: Drawing a Pyramid 
    * Write a Kotlin program that draws a pyramid of stars with a height of 5.
    *  
-   <img align="center" src="assets/Pyramid.PNG" alt="Pyramid" width="150"/>
+   <img align="center" src="assets/pyramid.PNG" alt="Pyramid" width="150"/>
 
 
 * <h5>Pyramid.png</h5>
