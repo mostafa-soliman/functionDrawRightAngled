@@ -38,6 +38,9 @@ fun main() {
     pyramid(5)
     println()
     diamondShape(5)
+    println()
+    val str:String = "Kotlin is awesome"
+    println(str.vowelsInString())
 
 }
 
@@ -99,5 +102,14 @@ fun diamondShape(height : Int){
 
 }
 
+
+//* 4: Counting Vowels in a String
+// * Write a Kotlin program that counts the number of vowels (a, e, i, o, u) in the string "Kotlin is awesome".
+// *
+
+fun String.vowelsInString():Int{
+    val vowel = "aeoiu"
+    return  this.count {it in vowel}
+}
 
 
