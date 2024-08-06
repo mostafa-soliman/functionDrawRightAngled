@@ -34,6 +34,8 @@ fun main() {
     drawRightAngled(5)
     println()
     isoscelesTriangle(5)
+    println()
+    pyramid(5)
 
 }
 
@@ -62,3 +64,19 @@ fun isoscelesTriangle(height : Int){
         println()
     }
 }
+
+//3: Drawing a Pyramid
+// * Write a Kotlin program that draws a pyramid of stars with a height of 5.
+
+fun pyramid(height : Int){
+    for (i in 1..height){
+        for (j in 1 .. height - i){
+            print(" ")
+        }
+        for (k in 1 .. (2 * i - 1)){
+            print("*")
+        }
+        println()
+    }
+}
+
