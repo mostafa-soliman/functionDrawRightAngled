@@ -41,6 +41,9 @@ fun main() {
     println()
     val str:String = "Kotlin is awesome"
     println(str.vowelsInString())
+    println()
+    val reverseStr:String = "Kotlin"
+    println(reverseStr.reversStr())
 
 }
 
@@ -85,7 +88,7 @@ fun pyramid(height : Int){
     }
 }
 
-// 3: Drawing a Diamond Shape
+// 3-1: Drawing a Diamond Shape
 // * Write a Kotlin program that draws a diamond shape of stars with a height of 5.
 //   - The diamond shape should be centered and consist of stars with spaces around it to form the diamond pattern.
 
@@ -111,5 +114,14 @@ fun String.vowelsInString():Int{
     val vowel = "aeoiu"
     return  this.count {it in vowel}
 }
+
+// * 5: Reversing a String
+// * Write a Kotlin program that reverses the string "Kotlin".
+
+fun String.reversStr() : String{
+    return  this.reversed()
+}
+
+
 
 

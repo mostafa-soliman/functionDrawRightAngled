@@ -34,7 +34,7 @@
 * <h5>diamondShape.PNG</h5>
 
 
-## 7: Counting Vowels in a String
+## 5: Counting Vowels in a String
  * Write a Kotlin program that counts the number of vowels (a, e, i, o, u) in the string "Kotlin is awesome".
  * The function vowelsInString calculates how many vowels are present in the given string "Kotlin is awesome". The vowels are identified by checking if each character in the string belongs to the set of vowels defined in the vowel variable.
 
