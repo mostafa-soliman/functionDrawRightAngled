@@ -5,7 +5,7 @@
  align="center"
  src="assets/Right-Angled.png"
  alt="Right-Angled"
- width="750"
+ width="150"
 />
 <h1 align="center"Right-Angled.png</h1>
 
