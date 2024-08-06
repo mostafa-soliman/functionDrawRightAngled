@@ -31,5 +31,5 @@
    <img align="center" src="assets/diamondShape.PNG" alt="Pyramid" width="150"/>
 
 
-* <h5>Pyramid.png</h5>
+* <h5>diamondShape.PNG</h5>
 * 
